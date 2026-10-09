@@ -73,4 +73,4 @@ template <typename T>
 const char * Array<T>::OutOfBoundsException::what() const throw()
 {
 	return ("Array: index out of bounds");
-};
+}
